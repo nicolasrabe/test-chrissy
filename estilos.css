@@ -1,0 +1,52 @@
+body{
+    background-color: coral;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+div h2{
+    color: aqua;
+}
+
+/*IDs y clases*/
+/* IDs son unicos*/
+/* las clases son repetibles*/
+
+#parrafo-especial{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.parrafo{
+    color: blue;
+    font-style: italic;
+    
+}
+
+a, img{
+    display: block;
+} 
+
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    color:chartreuse;
+
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
